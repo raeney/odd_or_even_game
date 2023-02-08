@@ -3,7 +3,7 @@ def calculating(number):
         print('Even!')
     else:
         print('Odd')
-    if input('Continue? Type "no" to stop!\n').lower == 'no':
+    if input("Continue? Type 'no' to stop!\n") == 'no':
         exit()
     else:
         main()
